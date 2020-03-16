@@ -1,5 +1,6 @@
 import React from "react";
+import { DetailsPage } from "components/templates/details-page";
 
 export const ProductDetails = () => {
-  return <div>Product Details</div>;
+  return <DetailsPage>Product Details</DetailsPage>;
 };

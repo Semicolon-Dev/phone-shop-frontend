@@ -1,5 +1,6 @@
 import React from "react";
+import { ListPage } from "components/templates/list-page";
 
 export const ProductList = () => {
-  return <div>Product List</div>;
+  return <ListPage>Product List</ListPage>;
 };
